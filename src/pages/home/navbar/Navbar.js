@@ -17,8 +17,8 @@ const Navbar = () => {
         {/* 1st logo part  */}
         <div className="logo">
           <h2>
-            <span>T</span>hapa
-            <span>T</span>echnical
+            <span>T</span>ood
+            <span>c</span>ode
           </h2>
         </div>
 
@@ -38,14 +38,17 @@ const Navbar = () => {
               <NavLink to="/service">services</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">contact</NavLink>
+              <NavLink to="/contact">contact us</NavLink>
+            </li>
+            <li>
+              <NavLink to="/signup">sign up</NavLink>
             </li>
           </ul>
         </div>
 
         {/* 3rd social media links */}
         <div className="social-media">
-          <ul className="social-media-desktop">
+          {/* <ul className="social-media-desktop">
             <li>
               <a
                 href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
@@ -67,7 +70,7 @@ const Navbar = () => {
                 <FaYoutubeSquare className="youtube" />
               </a>
             </li>
-          </ul>
+          </ul> */}
 
           {/* hamburget menu start  */}
           <div className="hamburger-menu">
