@@ -6,7 +6,7 @@ import slider2 from '../../../resource/banner-slider/slider2.jpg'
 import './Banner.css';
 const Banner = () => {
   return (
-    <div>
+    <div className=' border-b-8 bg-cyan-500'>
        <Carousel fade>
   <Carousel.Item>
     <img

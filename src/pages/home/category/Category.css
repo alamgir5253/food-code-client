@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Roboto:wght@300&display=swap');
+
+.section-title h1{
+  font-size: 3rem;
+  margin:10rem auto;
+  text-align: center;
+  padding: 1.5rem 3rem;
+  font-family: 'Roboto', sans-serif;
+  color: #8d99ae;
+  width: 50rem;
+  position: relative;
+  font-weight: bold
+}
+.section-title h1::after{
+  content: '';
+  height: .5rem;
+  width: 100%;
+  background: #90c322;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  position: absolute
+
+}
+h1::before{
+  content: '';
+  height: .5rem;
+  width: 100%;
+  background: #90c322;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  position: absolute
+
+}
+
+/* category-container style start  */
+.category-container{
+  margin: auto;
+  padding: 1rem;
+}
+.image-container{
+  width: 100%;
+ border: .1rem solid #dedede;
+  overflow: hidden;
+  border-radius: .5rem
+}
+.image-container .category-image{
+  margin: auto;
+ filter: opacity(.8);
+  transition: .5s ease-in-out;
+  padding: 1rem;
+  width: 100%;
+
+}
+.image-container .category-image:hover{
+  transform: scale(1.2);
+  filter: opacity(1);
+}
+.category-title{
+  font-size: 3rem;
+  padding: 1rem 0;
+  color:#90c322;
+  font-family: 'Arima', cursive;
+  font-weight: bold
+}
+.category-container .category-discription{
+  font-size: 1.8rem;
+  color: #495057;
+}
+.category-container .category-btn{
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  background:#90c322;
+  color: #fff;
+  margin-top: 1rem;  
+}
+.category-container .category-btn:hover{
+  background:#fff;
+  color: #90c322;
+  border: .2rem solid #90c322  
+}
