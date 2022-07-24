@@ -1,0 +1,53 @@
+.footer-section{
+  background: #383838;
+  padding: 5rem 0;
+  color: aliceblue
+}
+.footer-contact{
+  margin: auto;
+}
+.footer-contact h3{
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #8d99ae;
+}
+.facebook,
+.instagram,
+.youtube,
+.linkedin,
+.twiter{
+  height: 4rem;
+  width: 4rem;
+  background: linear-gradient(#90c322, #70873c);
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  transform: skew(-30deg);
+  transition: .4s;
+  cursor: pointer;
+
+}
+
+.footer-touch{
+  margin: auto;
+}
+.footer-touch h3{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #8d99ae;
+}
+.footer-touch h4{
+  font-size: 1.8rem;
+  margin-bottom: .5rem;
+  color: #8d99ae;
+}
+.footer-payment{
+  margin: auto;
+}
+.footer-payment h3{
+  font-size: 2.5rem;
+  color: #8d99ae;
+  margin-bottom: 1rem;
+}
